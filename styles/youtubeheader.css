@@ -1,0 +1,131 @@
+.header{
+    height: 60px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 100;
+    background-color: white;
+    border-bottom-width:1px;
+    border-bottom-color: rgb(219, 215, 215);
+
+
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.youtube-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right:20px
+
+}
+.youtube-logo{
+    height: 20px;
+}
+.center-section{
+    flex:1;
+    margin-left: 70px;
+    margin-right:30px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+    .search-bar{
+        flex:1;
+        height: 36px;
+        padding-left: 10px;
+        font-size:16px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(192, 192, 192, 0.804);
+        border-radius: 2px;
+        box-shadow: inset 1px 3px #0000001e;
+        width:0;
+    }
+    .search-bar::placeholder{
+        font-family:Arial;
+        font-size: 16px;
+    }
+
+.search-button{
+    height: 39px;
+    width: 66px;
+    background-color:rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgba(192, 192, 192, 0.804);
+    margin-left: -1px;
+    margin-right:8px;
+}
+
+.search-icon{
+    height:25px;
+    margin-top: 4px;
+
+}
+.voicesearch-button{
+    height:40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(245, 245, 245);
+}
+
+.voice-search{
+    height:24px;
+    margin-top: 4px;
+   
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    width:180px;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink:0;
+}
+
+.icon-upload{
+    height: 24px;
+    
+}
+.icon-app{
+    height: 24px; 
+}
+
+.icon-notification{
+    height: 24px;
+}
+
+.notifications-icon{
+position: relative;
+}
+
+.notification-count{
+position: absolute;
+top:-2px;
+right:-5px;
+background-color: red;
+color: white;
+font-family: Roboto,Arial;
+font-size: 11px;
+border-radius: 10px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 2px;
+padding-top: 2px;
+
+}
+
+.channel-profile{
+    height: 32px;
+    border-radius: 16px;
+}
+
